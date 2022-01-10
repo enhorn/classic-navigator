@@ -17,7 +17,7 @@ struct AddressBar: View {
             Text("Location:").font(.textDefault)
             TextField("URL", text: $url)
                 .foregroundColor(.black)
-                .background(.white)
+                .background(Color.white)
                 .border(Color.border.opacity(0.7), width: .border)
                 .padding(.trailing, .small)
             Toggle("Wayback Machine", isOn: $useWayBack).accentColor(.gray)
